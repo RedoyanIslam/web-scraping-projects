@@ -42,4 +42,4 @@ for stock in stocks:
         })
 
 df = pd.DataFrame(all_stocks)
-df.to_excel('E:/dsebd.xlsx', index=True)
+df.to_excel('excel_file_path', index=True)
